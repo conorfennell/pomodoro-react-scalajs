@@ -3,6 +3,7 @@ enablePlugins(ScalaJSPlugin)
 scalaJSUseMainModuleInitializer := true
 libraryDependencies += "com.github.japgolly.scalajs-react" %%% "core" % "1.1.1"
 libraryDependencies += "io.suzaku" %%% "diode" % "1.1.2"
+libraryDependencies += "io.suzaku" %%% "diode-react" % "1.1.2"
 
 jsDependencies ++= Seq(
 
